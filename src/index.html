@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="movies-list" class="row">
+        </div>
+    </div>
+    <div class="modal fade" id="movieDetails-modal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+
+            <!-- Modal Content HERE -->
+            <div class="modal-content">
+                <!-- modal header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p class="movieDetails-overview"></p>
+                    <p>
+                        <img class="movieDetails-img" src="https://image.tmdb.org/t/p/w500/" width="300px " height="300px ">
+                    </p>
+                </div>
+                <!-- Modal FOOTER -->
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-default " data-dismiss="modal ">Close</button>
+                </div>
+            </div>
+            <!-- End of Modal Content -->
+            <script src="./app.bundle.js "></script>
+</body>
+
+</html>
